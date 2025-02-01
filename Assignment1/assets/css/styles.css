@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#School-id {
+ color: aqua;
+}
+
+.main {
+  margin: 0 auto;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  /* border:1px solid black; */
+  background-color: blue;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 100px;
+}
+  
+

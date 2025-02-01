@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+</head>
+<body>
+    <header>
+        <h1>Media Page</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#audio">Audio</a>
+                </li> 
+                <li>
+                    <a href="#video">Video</a>
+                </li>
+                <li>
+                    <a href="#iframe">iframe</a>
+                </li>
+                <li>
+                    <a href="#embed">Embed</a>
+                </li>
+                <li>
+                    <a href="#source">Source</a>
+                </li>
+                <li>
+                    <a href="#track">Track</a>
+                </li>
+                <li>
+                    <a href="#picture">Picture</a>
+                </li>               
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="audio">
+            <section>
+                <h1><em>Audio</em></h1>
+                <audio controls>
+                    <source src="assets/audio/Burna_Boy_-_05_Gum_Body_Ft_Jorja_Smith.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+        </article>
+        <article id="video">
+            <section>
+                <h1><em>Video</em></h1>
+                <video controls src="assets/video/artworth_brothers-20231230-0001.mp4" type="video/mp4"  width="300" height="150">
+            
+                </video>
+            </section>
+        </article>
+        <article id="iframe">
+            <section>
+                <h1><em>iframe</em></h1>
+                <iframe src="https://www.youtube.com/embed/qgnmrPKbk2Q?si=WX_8EtyNyCpDmcI4" frameborder="0" title="YouTube video player"></iframe>
+            </section>
+        </article>
+        <article id="embed">
+            <section>
+                <h1><em>Embed</em></h1>
+                <embed src="https://www.youtube.com/embed/_DnYc4WaBa4?si=g3NqSXQTUdcB9edp" type="video/mp4" width="300" height="150">
+            </section>
+        </article>
+        <article id="source">
+            <section>
+                <h1><em>Source</em></h1>
+                <video controls width="300" height="150">
+                    <source src="assets/video/irvinrandle-20241017-0001.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </section>
+        </article>
+        <article id="track">
+            <section>
+                <h1><em>Track</em></h1>
+                <video controls width="300" height="150">
+                    <source src="assets/video/strengthinbodymind-20241115-0001.mp4" type="video/mp4">
+                    <track src="assets/subtitle/Wicked.Part.1.2024.SLOSubs.BRRip.XviD-DrSi.vtt" kind="subtitles" srclang="en" label="English">
+                </video>             
+            </section>
+        </article>
+        <article id="picture">
+            <section>
+                <h1><em>Picture</em></h1>
+                <picture width="300" height="150">
+                    <source srcset="assets/images/4.jpg" media="(max-width: 600px)">
+                    <source srcset="assets/images/3.jpg" media="(max-width: 900px)">
+                    <source srcset="assets/images/1.jpg" media="(max-width: 1200px)">
+                    <img src="assets/images/2.jpg" alt="Irvin Randle" width="300" height="150">
+                </picture>
+            </section>
+        </article>
+    </main>
+    
+</body>
+</html>
