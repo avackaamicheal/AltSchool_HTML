@@ -20,11 +20,9 @@
 .main {
   margin: 0 auto;
   display: flex;
-  text-decoration: none;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  /* border:1px solid black; */
   background-color: blue;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
@@ -34,6 +32,19 @@ ul {
   padding: 0;
   display: flex;
   gap: 100px;
+}
+
+.main a, a {
+  text-decoration: none;
+}
+
+.main a {
+    color:black;
+}
+
+button {
+  background-color: brown;
+  height: 50px;
 }
   
 
